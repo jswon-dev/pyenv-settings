@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pyenv-settings"
+version = "0.1.0"
+description = ""
+authors = ["jswon-dev <jswon.dev@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pyenv_settings"}]
+
+[tool.poetry.dependencies]
+python = "3.9.17"
+pandas = "^2.0.3"
+matplotlib = "^3.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
