@@ -8,8 +8,8 @@ packages = [{include = "pyenv_settings"}]
 
 [tool.poetry.dependencies]
 python = "3.9.17"
-pandas = "^2.0.3"
-matplotlib = "^3.7.2"
+ipykernel = "^6.24.0"
+prophet = "^1.1.4"
 
 
 [build-system]
